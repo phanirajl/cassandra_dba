@@ -1,5 +1,5 @@
-Role Name
-=========
+cassandra_dba
+=============
 
 Installs various Linux OS and other tools useful for the Cassandra Database administrator.
 
