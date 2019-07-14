@@ -3,7 +3,7 @@
 - name: Ensure epel is available
   yum:
     name: epel-release
-    state: Installed
+    state: present
 
 - name: Ensure Linux utilities
   yum:
