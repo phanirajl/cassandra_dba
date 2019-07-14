@@ -1,0 +1,6 @@
+---
+# defaults file for
+linux_utilities:
+  - net-tools
+  - lsof
+  - dtstat

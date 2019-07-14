@@ -1,0 +1,6 @@
+---
+# tasks file for cassandra_dba
+- name: Ensure Linux utilities
+  yum:
+    name: "{{ linux_utilities }}"
+    state: latest

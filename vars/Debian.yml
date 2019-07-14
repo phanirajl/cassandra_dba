@@ -1,0 +1,5 @@
+---
+# vars file for cassandra_dba Debian based systems
+linux_system_tools:
+  - dstat
+  - net-tools
