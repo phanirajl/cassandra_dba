@@ -1,5 +1,10 @@
 ---
 # tasks file for cassandra_dba
+- name: Ensure epel is available
+  yum:
+    name: epel-release
+    state: Installed
+
 - name: Ensure Linux utilities
   yum:
     name: "{{ linux_utilities }}"
