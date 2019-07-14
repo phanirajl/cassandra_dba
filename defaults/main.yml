@@ -3,4 +3,4 @@
 linux_utilities:
   - net-tools
   - lsof
-  - dtstat
+  - dstat
